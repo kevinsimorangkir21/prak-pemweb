@@ -13,42 +13,47 @@ Praktikum 2 Pemweb RC -->
 </head>
 
 <body>
-    <div class="head" border="1.5">
-        <nav class="navbar">
-            <li class="menu"><a href="Home">Home</a></li>
-            <li class="menu"><a href="About">About</a></li>
-            <li class="menu"><a href="Contact">Contact</a></li>
+        <nav>
+        
+            <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#" onClick="return confirm ('Mau ngapain?')">Login</a></li>
+            <li><a href="#" class="name">Kevin Simorangkir</a></li>
+            </ul>
         </nav>
         <header class="top">
-            <img align="right" src="img/kevin.JPG" alt="Foto Kevin" width="150px" height="200px">
+            <img class="gambar" align="right" src="img/kevin.JPG" alt="Foto Kevin" width="150px" height="200px">
             <div clas="title">
                 <h1>KEVIN SIMORANGKIR</h1>
-                <h3>Tentang Saya</h3>
+                
+            </div>
+        </header>
+
+    <div class="About">
+        <h3>Tentang Saya</h3>
                 <p>Halo Semuanya! Kenalin nama saya Kevin Simorangkir dengan NIM Akhir 150 seorang Mahasiswa di Institut Teknologi
                     Sumatera yang sekarang mengambil Program Studi Teknik Informatika. Saya berasal dari Bandar Lampung dengan hobi
                     saya mengulik beberapa bahasa pemrograman</p>
                 <p>Beberapa bahasa pemrograman yang saya kulik diantaranya C++, HTML, CSS, JS, PHP, dan beberapa bahasa lainnya.
                     Semuanya saya tekuni satu per satu dimulai dari yang sederhana sampai yang cukup kompleks</p>
-            </div>
-        </header>
-
-    <div class="About">
-        <div class="video">
+            <div class="video">
             <video src="img/live.mp4" controls width="40%" height="50%" alt="Video"></video>
         <div class="music">
             <audio src="img/music.mp3" autoplay unmuted controls>My Music</audio>
         </div>
         </div>
     </div>
-        
-    </div>
     
-    <table border="1">
+    <div class="jadwal-kuliah">
+        <h3 id="kuliah">
+        <table border="1">
         <p><b>Jadwal Kuliah</b></p>
         <tr>
             <th rowspan="2">Hari</th>
             <th rowspan="2">Mata Kuliah</th>
-            <th colspan="2">waktu</th>
+            <th colspan="2">Waktu</th>
             <th rowspan="2">Kelas</th>
         <tr>
             <th>Mulai</th>
@@ -115,14 +120,10 @@ Praktikum 2 Pemweb RC -->
             <td>RC</td>
         </tr>
     </table>
+        </h3>
+    </div>
 
-    <h3>Hubungi Saya :</h3>
-    <ul>
-        <li><a href="https://instagram.com/vins.ch">WhatsApp</a></li>
-        <li><a href="https://linkedin.com/kevin-simorangkir">Linkedin</a></li>
-    </ul>
-
-    <form action="formulir.html" method="post"></form>
+    <form action="#" method="post"></form>
     <h2>Mari Berkawan!</h2>
     <p> Masukkan Email </p>
     <label for="email">email : </label>
@@ -148,6 +149,11 @@ Praktikum 2 Pemweb RC -->
     <input type="checkbox" name="soal04" value="4"> 4000
     <br>
     <button type="submit">Simpan</button>
+
+    <footer class="bottom">
+        <h4>Bagian Dasar Web</h4>
+    </footer>
+    </div>
 </body>
 
 </html>
