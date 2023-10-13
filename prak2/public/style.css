@@ -1,0 +1,84 @@
+html {
+    background-color: fff;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.task {
+    background-color: #ddd;
+    margin: 10px;
+    width: 800px;
+}
+
+.top {
+    display: flex;
+    justify-content: start;
+    background-color: #333;
+    padding: 20px;
+}
+
+.gambar {
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.title {
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: end;
+    list-style: none;
+    padding: 5px;
+    background-color: black;
+
+}
+
+.menu a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.about {
+    margin: 10px;
+    padding: 20px;
+    background-color: white;
+}
+
+.music {
+    text-align: center;
+}
+
+.jadwal-kuliah {
+    margin: 10px;
+    padding: 20px;
+    background-color: white;
+}
+
+.jadwal-kuliah table {
+    width: 100%;
+}
+
+.hub {
+    margin: 10px;
+    padding: 20px;
+    background-color: white;
+}
+
+.hub button {
+    background-color: lightgreen;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    color: white;
+}

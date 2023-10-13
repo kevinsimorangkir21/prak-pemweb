@@ -1,6 +1,9 @@
-<!-- Kevin Simorangkir
+<!-- 
+Kevin Simorangkir
 121140150
-Praktikum 2 Pemweb RC -->
+Teknik Informatika
+Praktikum 2 Pemweb RC 
+-->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -9,39 +12,37 @@ Praktikum 2 Pemweb RC -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tugas 2 Praktikum Pemweb RC</title>
-    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="shortcut icon" type="image/jpg" href="#" />
+    <link rel="stylesheet" href="public/style.css" />
 </head>
 
 <body>
-        <nav>
-        
-            <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#" onClick="return confirm ('Mau ngapain?')">Login</a></li>
-            <li><a href="#" class="name">Kevin Simorangkir</a></li>
-            </ul>
-        </nav>
+    <div class="task" border="1">
         <header class="top">
-            <img class="gambar" align="right" src="img/kevin.JPG" alt="Foto Kevin" width="150px" height="200px">
+            <img class="gambar" align="right" src="public/assets/foto_pribadi/kevin.JPG" alt="Foto Kevin" width="150px" height="200px">
             <div clas="title">
                 <h1>KEVIN SIMORANGKIR</h1>
-                
+                <h3>Seorang Mahasiswa Biasa Semester 5</h3>
             </div>
         </header>
-
+        
+        <nav class="navbar">
+            <li class="menu"><a href="">Home</a></li>
+            <li class="menu"><a href="">About</a></li>
+            <li class="menu"><a href="">Contact</a></li>
+        </nav>
+        
     <div class="About">
-        <h3>Tentang Saya</h3>
+        <h2>Tentang Saya</h2>
                 <p>Halo Semuanya! Kenalin nama saya Kevin Simorangkir dengan NIM Akhir 150 seorang Mahasiswa di Institut Teknologi
                     Sumatera yang sekarang mengambil Program Studi Teknik Informatika. Saya berasal dari Bandar Lampung dengan hobi
                     saya mengulik beberapa bahasa pemrograman</p>
                 <p>Beberapa bahasa pemrograman yang saya kulik diantaranya C++, HTML, CSS, JS, PHP, dan beberapa bahasa lainnya.
                     Semuanya saya tekuni satu per satu dimulai dari yang sederhana sampai yang cukup kompleks</p>
             <div class="video">
-            <video src="img/live.mp4" controls width="40%" height="50%" alt="Video"></video>
+            <!-- <video src="#" controls width="40%" height="50%" alt="Video"></video> -->
         <div class="music">
-            <audio src="img/music.mp3" autoplay unmuted controls>My Music</audio>
+            <audio src="public/assets/music/m4-song.mp3" autoplay unmuted controls>My Music</audio>
         </div>
         </div>
     </div>
@@ -123,7 +124,7 @@ Praktikum 2 Pemweb RC -->
         </h3>
     </div>
 
-    <form action="#" method="post"></form>
+    <form action="#" class="hub" method="post">
     <h2>Mari Berkawan!</h2>
     <p> Masukkan Email </p>
     <label for="email">email : </label>
@@ -149,6 +150,8 @@ Praktikum 2 Pemweb RC -->
     <input type="checkbox" name="soal04" value="4"> 4000
     <br>
     <button type="submit">Simpan</button>
+
+    </form>
 
     <footer class="bottom">
         <h4>Bagian Dasar Web</h4>
