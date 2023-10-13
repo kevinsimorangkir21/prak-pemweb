@@ -45,10 +45,6 @@ nav ul li {
     float: left;
 }
 
-nav ul li .name {
-    float: right;
-}
-
 nav ul li:hover {
     background: #ffffff;
 }
@@ -63,6 +59,8 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
 }
+
+nav ul li a name 
 
 .top {
     display: flex;
