@@ -87,8 +87,13 @@ body {
     background-color: white;
 }
 
+.hub h2 {
+    text-align: center;
+}
+
 .hub button {
     background-color: lightgreen;
+    text-align: center;
 }
 
 .bottom {
