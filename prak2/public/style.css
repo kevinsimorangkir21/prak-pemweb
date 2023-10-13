@@ -92,8 +92,7 @@ body {
 }
 
 .hub button {
-    background-color: lightgreen;
-    text-align: center;
+    background-color: rgb(0, 0, 0);
 }
 
 .bottom {
