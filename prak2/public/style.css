@@ -16,13 +16,13 @@ body {
 .top {
     display: flex;
     justify-content: start;
-    background-color: #333;
+    background-color: #989898;
     padding: 20px;
 }
 
 .gambar {
     padding: 20px;
-    height: 150px;
+    height: 190px;
     border-radius: 0px 0px 80px 0px;
 }
 
@@ -36,6 +36,7 @@ body {
     list-style: none;
     padding: 5px;
     background-color: black;
+    font-weight: bold;
 
 }
 
@@ -49,6 +50,11 @@ body {
     margin: 10px;
     padding: 20px;
     background-color: white;
+    text-align: center;
+}
+
+.about p {
+    text-align: justify;
 }
 
 .music {
@@ -63,6 +69,16 @@ body {
 
 .jadwal-kuliah table {
     width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.jadwal-kuliah p {
+    text-align: center;
+}
+
+.jadwal-kuliah td {
+    font-weight: 400;
 }
 
 .hub {
