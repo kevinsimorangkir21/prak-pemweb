@@ -22,9 +22,8 @@ body {
 
 .gambar {
     padding: 20px;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
+    height: 150px;
+    border-radius: 0px 0px 80px 0px;
 }
 
 .title {
