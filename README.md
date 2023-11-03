@@ -1,6 +1,6 @@
 <div align="center">
 <h1> Praktikum Pemrograman Web RC </h1>
-<h2> Asprak : Fitra Ilyasa, Hariando Muhti, M.Rozin </h2>
+<h4> Asprak : Fitra Ilyasa, Hariando Muhti, M.Rozin </h4>
 </div>
 
 ## Description
