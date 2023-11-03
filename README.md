@@ -1,6 +1,7 @@
 <div align="center">
 <h1> Praktikum Pemrograman Web RC </h1>
 <h2> Asprak : Fitra Ilyasa, Hariando Muhti, M.Rozin </h2>
+</div>
 
 ## Description
 RC Web Programming Practical Collection Repository is a digital platform specifically designed to collect all practicum assignments and projects related to web programming in the Remote Campus (RC) learning environment. This repository functions as a storage center that allows students to submit their assignments according to a set schedule.
