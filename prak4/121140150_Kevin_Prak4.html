@@ -1,34 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tugas 4 Praktikum Pemweb RC | Kevin Simorangkir</title>
-    <link rel="shortcut icon" type="image/ico" href="public/favicon/logo-black.ico" />
-    <link rel="stylesheet" href="public/style.css">
+    <title>Tugas 3 Praktikum Pemweb RC | Kevin Simorangkir</title>
+    <link rel="stylesheet" href="public/style.css" />
+    <link rel="shortcut icon" type="image/ico" href="public/assets/favicon/logo-wh.ico" />
 </head>
 
 <body>
-    <h1>Menghitung Bilangan Ganjil dan Genap</h1>
-    <h3>Masukkan Bilangan Bulat Positif</h3>
+    <h1>Menghitung Bilangan Ganjil & Genap</h1>
+    <p>Masukkan Bilangan Bulat Positif:</p>
+    <label for="inputNumber"></label>
+    <input type="number" id="inputNumber" min="1" required>
+    <button onclick="hitung()">Hitung</button>
+    <p id="result"></p>
 
-    <span>Bilangan</span>
-    <input type="number" id="bilangan">
-    <button onclick=cekGnjlGnjl>Cek hasil</button>
-    <p id="hasil"></p>
+    <script src="public/script.js"></script>
 </body>
 
-<script>
-    function cekGnjlGnp() {
-            let bilangan = document.getElementById("bilangan").value
-            let hasil = document.getElementById("hasil")
-
-            if (bilangan % 2 == 0) {
-                hasil.innerText = "Hasil : Bilangan Ganjil"
-            } else {
-                hasil.innerText = "Hasil : Bilangan Genap"
-            }
-        }
-</script>
 </html>
