@@ -1,4 +1,5 @@
 <div align="center">
+<img align="center" alt="Coding" width="400" src="https://miro.medium.com/v2/resize:fit:679/1*mB6YLIGqIk1hTzU6Fb12zQ.gif">
 <h1> Praktikum Pemrograman Web RC </h1>
 <h4> Asprak : Fitra Ilyasa, Hariando Muhti, M.Rozin </h4>
 </div>
