@@ -1,3 +1,10 @@
+/* 
+Kevin Simorangkir 
+121140150 
+Teknik Informatika 
+Praktikum 4 Pemweb RC 
+*/
+
 function hitung() {
             const inputElement = document.getElementById('inputNumber');
             const number = parseInt(inputElement.value);
