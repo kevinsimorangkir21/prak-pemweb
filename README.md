@@ -1,5 +1,5 @@
 <div align="center">
-<img align="center" alt="Coding" width="400" src="https://www.lambdatest.com/resources/images/news24.gif">
+<img align="center" alt="Coding" width="800" src="https://www.lambdatest.com/resources/images/news24.gif">
 <h1> Praktikum Pemrograman Web RC </h1>
 <h4> Asprak : Fitra Ilyasa, Hariando Muhti, M.Rozin </h4>
 </div>
