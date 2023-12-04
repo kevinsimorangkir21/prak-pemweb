@@ -2,15 +2,15 @@
 <html>
 <head>
   <title>Google Store (GS) | #BacaBukuSetiapHari</title>
-  <link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="stylesheet" type="text/css" href="public/style.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-  <link rel="shortcut icon" type="image/ico" href="google.ico" />
+  <link rel="shortcut icon" type="image/ico" href="public/assets/logo/google.ico" />
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
   <div class="header">
-    <img src="gle.png" width="100px" height="100px">
+    <img src="public/assets/logo/gle.png" width="100px" height="100px">
     <h1>Google Store</h1> 
   </div>
 
